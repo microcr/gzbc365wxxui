@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/shilu-login/login",
+    "pages/shilu-login/reg",
+    "pages/shilu-login/forget",
+    "pages/shilu-login/blog",
+    "pages/index/index",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bbbbbb",
+    "borderStyle": "white",
+    "selectedColor": "#3B7ED5",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home_n.png",
+        "selectedIconPath": "static/tab/home_h.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tab/me_n.png",
+        "selectedIconPath": "static/tab/me_h.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
